@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="shortcut icon" type="x-icon" href=""> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" type="image/png" href="images/portfolio.png" sizes="32x32" />
+    <title>My portfolio</title>
+</head>
+
+<body>
+
+
+    <header class="header-area">
+        <a href="#" class="username">PortFolio</a>
+        <nav class="navigation links">
+            <a href="#aboutMe">About Me</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+        <button class="toggle-menu" onclick="toggleMenu(event)">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <section class="main">
+        <div>
+            <h2>Hello, I'm <br><span>Ahmed Bahee</span></h2>
+            <h3>And I'm a Full Stack Developer</h3>
+            <a href="#projects" class="main-btn">View my work</a>
+            <!-- <div class="social-icons">
+                <a target="_blank" href="https://www.linkedin.com/in/behee-tannoubi/"><i
+                        class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" href="#"><i class="fab fa-bitbucket"></i></a>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="about-me" id="aboutMe">
+        <h2 class="title">About Me</h2>
+        <div class="about-us">
+            <div class="image-box wow slideInLeft animate__fadeInLeft" data-wow-duration="1s">
+                <img src="images/me.jpg" />
+            </div>
+            <div class="info-box wow slideInLeft animate__fadeInRight" data-wow-duration="1s">
+
+                <p>Hi My name is Ahmed Bahee eddine Tannoubi
+                    , i'm web developrer,
+                    and Very passionate and love my job .
+                    I have some skills and knowledge necessary
+                    to create your projects a success
+                    and enjoy every step of the design process
+                    from discussion and collaboration .</p>
+                <a target="_blank"
+                    href="https://drive.google.com/file/d/1Nmq_HuMBY_g7c8UP_XRO5QGmrrIemdU5/view?usp=sharing"
+                    class="main-btn"> View CV</a>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <div class="card wow slideInUp animate__fadeInUp" data-wow-duration="1s">
+                <div class="icon">
+                    <i class="fas fa-tablet-alt"></i>
+                </div>
+                <div class="info">
+                    <h3>Responsive design</h3>
+                </div>
+            </div>
+            <div class="card wow slideInUp animate__fadeInUp" data-wow-duration="1s">
+                <div class="icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="info">
+                    <h3>Clean Code</h3>
+                </div>
+            </div>
+
+            <div class="card wow slideInUp animate__fadeInUp" data-wow-duration="1s">
+                <div class="icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <div class="info">
+                    <h3>Problem solving</h3>
+                </div>
+            </div>
+            <div class="card wow slideInUp animate__fadeInUp" data-wow-duration="1s">
+                <div class="icon">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="info">
+                    <h3>SEO optimization</h3>
+                </div>
+            </div>
+
+            <div class="card wow slideInUp animate__fadeInUp" data-wow-duration="1s">
+                <div class="icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="info">
+                    <h3>Effective communication</h3>
+                </div>
+            </div>
+            <div class="card wow slideInUp animate__fadeInUp" data-wow-duration="1s">
+                <div class="icon">
+                    <i class="fas fa-calendar-alt"></i>
+                </div>
+                <div class="info">
+                    <h3>Commitement to deadlines</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+            <div class="project-card wow slideInUp animate__fadeInUp" data-wow-duration="1s">
+                <div class="project-image">
+                    <img src="images/SF.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Développement Flutter/PHP/Firebase</p>
+                    <strong class="project-title">
+                        <span>Sami Fehri</span>
+                        <a target="_blank"
+                            href="https://play.google.com/store/apps/details?id=com.teklend.elhiwar&hl=fr&gl=US"
+                            class="more-details">Preview</a>
+                    </strong>
+                    <p class="project-category">
+                        is a mobile app that delivers a huge selection of award-winning TV shows, movies and stand-ups
+                    </p>
+                </div>
+            </div>
+            <div class="project-card wow slideInUp animate__fadeInUp" data-wow-duration="1s">
+                <div class="project-image">
+                    <img src="images/basmile.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Développement Ionic/Spring Boot/Firebase</p>
+                    <strong class="project-title">
+                        <span>Mon dentiste</span>
+                        <a target="_blank"
+                            href="https://play.google.com/store/apps/details?id=basmile.tech.mondentiste&hl=fr&gl=US"
+                            class="more-details">Preview</a>
+                    </strong>
+                    <p class="project-category">
+                        is a mobile app that aims to improve relationship between patient and practitioner
+                    </p>
+                </div>
+            </div>
+            <div class="project-card wow slideInUp animate__fadeInUp" data-wow-duration="1s">
+                <div class="project-image">
+                    <img src="images/kys.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Développement Prestashop</p>
+                    <strong class="project-title">
+                        <span>Kifyoursmile</span>
+                        <a target="_blank" href="https://www.kifyoursmile.com/fr/" class="more-details">Preview</a>
+                    </strong>
+                    <p class="project-category">
+                        is a platform for selling dental whitening products in France
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card wow slideInUp animate__fadeInUp" data-wow-duration="1s">
+                <div class="project-image">
+                    <img src="images/DoctoCloud.png" />
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Développement Angular/Node.js</p>
+                    <strong class="project-title">
+                        <span>DoctoCloud</span>
+                        <!-- <a href="#" class="more-details">Preview</a> -->
+                    </strong>
+                    <p class="project-category">
+                        is a web app that helps orthodontic manage his
+                        clinic
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="cards contact " id="contact">
+        <h2 class="title">Contact Me</h2>
+        <div class="content">
+            <div class="card wow slideInLeft animate__fadeInLeft" data-wow-duration="1s">
+                <div class="icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <!-- <h3>Phone</h3> -->
+                    <h3>+21624201194</h3>
+                </div>
+            </div>
+            <div class="card wow slideInLeft animate__fadeInRight" data-wow-duration="1s">
+                <div class="icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <!-- <h3>Email</h3> -->
+                    <h3>ahmed.b.e@hotmail.com</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer-title">Copyrights @
+            <a target="_blank" href="https://www.linkedin.com/in/behee-tannoubi/"><span>Ahmed Bahee</span></a></p>
+        <!-- <div class="social-icons">
+            <a target="_blank" href="https://www.linkedin.com/in/behee-tannoubi/"><i class="fab fa-linkedin"></i></a>
+            <a target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="#"><i class="fab fa-bitbucket"></i></a>
+        </div> -->
+    </footer>
+    <script src="main.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>

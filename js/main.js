@@ -29,10 +29,10 @@ let btn_zoom = document.querySelectorAll(".btn_zoom"),
   hide_div = document.getElementById("ovarlay");
 
 let src_img_1 = [
-    `images/basmile.png`,
-    `images/dentiste/4.png`,
-    `images/dentiste/1.png`,
-    `images/dentiste/3.png`,
+    `images/dentiste/2.PNG`,
+    `images/dentiste/4.PNG`,
+    `images/dentiste/1.PNG`,
+    `images/dentiste/3.PNG`,
   ],
   src_img_2 = [
     `images/vod/1.png`,

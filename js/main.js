@@ -35,10 +35,10 @@ let src_img_1 = [
     `images/dentiste/3.PNG`,
   ],
   src_img_2 = [
-    `images/vod/1.png`,
-    `images/vod/2.png`,
-    `images/vod/3.png`,
-    `images/vod/4.png`,
+    `images/vodSF/1.PNG`,
+    `images/vodSF/2.PNG`,
+    `images/vodSF/3.PNG`,
+    `images/vodSF/4.PNG`,
   ];
 
 btn_zoom.forEach((element) => {

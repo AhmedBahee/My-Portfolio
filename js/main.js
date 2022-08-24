@@ -10,9 +10,15 @@ var write_method = setInterval(function () {
   }
 }, 100);
 
+function scrumPreview() {
+  window.open(
+    "https://www.scrumstudy.com/certification/verify?type=SFC&number=917999",
+    "_blank" // <- This is what makes it open in a new window.
+  );
+}
 function viewCv() {
   window.open(
-    "https://drive.google.com/file/d/1nuUae4_3XGvpzHhFza9rPD3-p59LdeDK/view?usp=sharing",
+    "https://drive.google.com/file/d/1Plj4ATXz-aAR2M5tkXrl7__2qACu0qrN/view?usp=sharing",
     "_blank" // <- This is what makes it open in a new window.
   );
 }

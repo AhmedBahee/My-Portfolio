@@ -18,7 +18,7 @@ function scrumPreview() {
 }
 function viewCv() {
   window.open(
-    "https://drive.google.com/file/d/1Plj4ATXz-aAR2M5tkXrl7__2qACu0qrN/view?usp=sharing",
+    "https://drive.google.com/file/d/10xLNcvM_X_ohuRbT2UDuFqDWDSXdfoX8/view?usp=share_link",
     "_blank" // <- This is what makes it open in a new window.
   );
 }

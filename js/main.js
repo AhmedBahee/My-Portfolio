@@ -1,4 +1,4 @@
-var txt_header = `I'm Ahmed Bahee a Full Stack Developer.`,
+var txt_header = `I'm Ahmed Tannoubi a Full Stack Developer.`,
   header_element = document.getElementById("txt_header"),
   j = 0;
 

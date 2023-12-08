@@ -22,7 +22,24 @@ function viewCv() {
     "_blank" // <- This is what makes it open in a new window.
   );
 }
+function openPreview() {
+  // Open a new tab
+  var previewWindow = window.open("", "_blank");
 
+  // Construct the video player HTML
+  var videoPlayerHTML = `
+      <video  width="100%" height="100%" controls>
+          <source src="media/vxdelivery.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+  `;
+
+  // Write the HTML to the new tab
+  previewWindow.document.write(videoPlayerHTML);
+
+  // Make sure to close the document to finalize the HTML
+  previewWindow.document.close();
+}
 function changeImage(element) {
   var main_prodcut_image = document.getElementById("main_product_image");
   main_prodcut_image.src = element.src;
@@ -44,6 +61,13 @@ let src_img_1 = [
     `images/vodSF/2.PNG`,
     `images/vodSF/3.PNG`,
     `images/vodSF/4.PNG`,
+  ],
+  src_img_3 = [
+    `images/sofprojets/2.png`,
+    `images/sofprojets/1.png`,
+    `images/sofprojets/3.png`,
+    `images/sofprojets/4.png`,
+    `images/sofprojets/5.png`,
   ];
 
 btn_zoom.forEach((element) => {
@@ -54,6 +78,8 @@ btn_zoom.forEach((element) => {
       result = src_img_2;
     } else if (this.id == "btn_2") {
       result = src_img_1;
+    } else if (this.id == "btn_3") {
+      result = src_img_3;
     }
     let content_table = document.querySelector(".model-zoom .carousel-inner");
     content_table.innerHTML = " ";

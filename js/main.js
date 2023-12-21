@@ -22,17 +22,26 @@ function viewCv() {
     "_blank" // <- This is what makes it open in a new window.
   );
 }
-function openPreview() {
+function openPreview(id) {
   // Open a new tab
   var previewWindow = window.open("", "_blank");
-
+  var videoPlayerHTML;
   // Construct the video player HTML
-  var videoPlayerHTML = `
+  if (id == 1) {
+    videoPlayerHTML = `
+      <video  width="100%" height="100%" controls>
+          <source src="media/board.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+      </video>
+  `;
+  } else if (id == 2) {
+    videoPlayerHTML = `
       <video  width="100%" height="100%" controls>
           <source src="media/vxdelivery.mp4" type="video/mp4">
           Your browser does not support the video tag.
       </video>
   `;
+  }
 
   // Write the HTML to the new tab
   previewWindow.document.write(videoPlayerHTML);

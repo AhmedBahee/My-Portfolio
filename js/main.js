@@ -27,9 +27,6 @@ function openPreview(id) {
   var previewWindow = window.open("", "_blank");
   var videoPlayerHTML;
   // Construct the video player HTML
-  console.log(id);
-  console.log(id == 1);
-  console.log(id == 2);
   if (id == 1) {
     videoPlayerHTML = `
       <video  width="100%" height="100%" controls>

@@ -16,9 +16,15 @@ function scrumPreview() {
     "_blank" // <- This is what makes it open in a new window.
   );
 }
+function ocpPreview() {
+  window.open(
+    "https://catalog-education.oracle.com/ords/certview/sharebadge?id=A72355C108C3207E4880B6C0D35CEA8E299DD075EE4CDE17D333F3A343F987D5",
+    "_blank" // <- This is what makes it open in a new window.
+  );
+}
 function viewCv() {
   window.open(
-    "https://drive.google.com/file/d/1NRyhcZNkaJL-8Dpz0miPjAupneUenZam/view?usp=share_link",
+    "https://drive.google.com/file/d/1F0R2yhJ6g7KNyayDWro6NVYjSf_WhGo7/view?usp=sharing",
     "_blank" // <- This is what makes it open in a new window.
   );
 }

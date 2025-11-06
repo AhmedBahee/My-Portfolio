@@ -22,6 +22,12 @@ function ocpPreview() {
     "_blank" // <- This is what makes it open in a new window.
   );
 }
+function ocp17Preview() {
+  window.open(
+    "https://catalog-education.oracle.com/pls/certview/sharebadge?id=A72355C108C3207E4880B6C0D35CEA8E0E3D650B41E8490CD4D07072D0883A31",
+    "_blank" // <- This is what makes it open in a new window.
+  );
+}
 function viewCv() {
   window.open(
     "https://drive.google.com/file/d/1F0R2yhJ6g7KNyayDWro6NVYjSf_WhGo7/view?usp=sharing",
